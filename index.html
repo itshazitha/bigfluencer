@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bigfluencer - Tech Creator Hub</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="bigfluencer.ico">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+    <div class="container-fluid px-4">
+        <a class="navbar-brand" href="index.html">
+            <img src="bigfluencer.svg" alt="Bigfluencer" class="brand-logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html" data-page="home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="news.html" data-page="news">Latest News</a></li>
+                <li class="nav-item"><a class="nav-link" href="influencers.html" data-page="influencers">Influencers</a></li>
+                <li class="nav-item"><a class="nav-link" href="brands.html" data-page="brands">Brands</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html" data-page="about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="pricing.html" data-page="pricing">Pricing</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="signin.html" class="btn btn-outline-primary me-2">Sign In</a>
+                <a href="signup.html" class="btn btn-primary">Join Free</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Rest of your HTML content remains the same -->
+    <!-- Unique Hero with Video/Image Placeholder -->
+    <section id="home" class="hero-section">
+        <div class="container-fluid p-0">
+            <div class="hero-container">
+                <!-- Left Side - Content -->
+                <div class="hero-content-side">
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <span class="badge-dot"></span>
+                            Live Community of 10K+ Creators
+                        </div>
+                        
+                        <h1 class="hero-main-title">
+                            Where Tech Creators 
+                            <span class="highlight-text">Build Their Empire</span>
+                        </h1>
+                        
+                        <p class="hero-main-text">
+                            Skip the struggle. Get insider tech news, connect with premium brands, 
+                            and turn your content into a thriving business. Built for the new generation 
+                            of TikTok, YouTube, Instagram creators.
+                        </p>
+                        
+                        <div class="hero-action-box">
+                            <button class="btn btn-primary btn-hero">
+                                <i class="fas fa-rocket me-2"></i>
+                                Join 10K+ Creators
+                            </button>
+                            <div class="hero-trust">
+                                <div class="avatars-group">
+                                    <div class="avatar">TC</div>
+                                    <div class="avatar">MK</div>
+                                    <div class="avatar">JD</div>
+                                    <div class="avatar-more">+2.5K</div>
+                                </div>
+                                <span>creators joined this week</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side - Media Placeholder -->
+                <div class="hero-media-side">
+                    <div class="media-placeholder">
+                        <div class="media-placeholder-content">
+                            <i class="fas fa-play-circle"></i>
+                            <p>Your Video/Image<br>Goes Here</p>
+                            <small>Recommended: 800×600px</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breaking News Ticker -->
+    <section class="news-ticker-section">
+        <div class="container-fluid">
+            <div class="news-ticker">
+                <div class="ticker-label">
+                    <i class="fas fa-bolt"></i> Breaking
+                </div>
+                <div class="ticker-content">
+                    <div class="ticker-item">OpenAI releases ChatGPT-5 with video generation capabilities</div>
+                    <div class="ticker-item">Meta announces new Instagram creator monetization tools</div>
+                    <div class="ticker-item">TikTok algorithm update: What creators need to know</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Dashboard -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">📊</div>
+                    <div class="stat-number">2.5K+</div>
+                    <div class="stat-label">Active Creators</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">💰</div>
+                    <div class="stat-number">$2.1M+</div>
+                    <div class="stat-label">Creator Earnings</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🏢</div>
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Partner Brands</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📈</div>
+                    <div class="stat-number">89%</div>
+                    <div class="stat-label">Success Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Hub -->
+    <section id="news" class="news-hub-section">
+        <div class="container">
+            <div class="section-intro">
+                <h2>Today's Tech Pulse</h2>
+                <p>Fresh stories that fuel viral content</p>
+            </div>
+            
+            <div class="news-hub-grid">
+                <!-- Featured Story with Image -->
+                <div class="news-featured">
+                    <div class="news-image-container">
+                        <img src="news1.png" alt="iPhone 16 Pro Max" class="news-featured-image">
+                        <div class="news-category-overlay">🔥 Trending</div>
+                    </div>
+                    <div class="news-content">
+                        <h3>iPhone 16 Pro Max: The Creator's Dream Device</h3>
+                        <p>Apple's latest flagship comes with revolutionary video recording capabilities that will change how creators produce content forever...</p>
+                        <div class="news-engagement">
+                            <span><i class="fas fa-eye"></i> 25.4K</span>
+                            <span><i class="fas fa-heart"></i> 1.2K</span>
+                            <span><i class="fas fa-share"></i> 892</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quick News -->
+                <div class="news-quick-list">
+                    <div class="quick-news-item">
+                        <div class="news-time">2h ago</div>
+                        <h5>Meta's New AR Glasses for Content Creators</h5>
+                    </div>
+                    <div class="quick-news-item">
+                        <div class="news-time">4h ago</div>
+                        <h5>YouTube Shorts Algorithm Update Guide</h5>
+                    </div>
+                    <div class="quick-news-item">
+                        <div class="news-time">6h ago</div>
+                        <h5>TikTok's Creator Fund Reaches $1B Milestone</h5>
+                    </div>
+                    <div class="quick-news-item">
+                        <div class="news-time">8h ago</div>
+                        <h5>AI Video Editing Tools Comparison 2025</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partnership Brands Section -->
+    <section class="partnership-brands-section">
+        <div class="container">
+            <div class="brands-intro">
+                <h3>Trusted by Leading Brands</h3>
+                <p>Connect with premium sponsors actively seeking creators</p>
+            </div>
+            
+            <div class="brands-grid">
+                <div class="brand-card">
+                    <div class="brand-logo tech-brand">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                    <div class="brand-info">
+                        <h5>Apple</h5>
+                        <span class="brand-category">Tech Hardware</span>
+                        <div class="brand-stats">
+                            <small>50+ Active Campaigns</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="brand-card">
+                    <div class="brand-logo software-brand">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <div class="brand-info">
+                        <h5>Microsoft</h5>
+                        <span class="brand-category">Software & Cloud</span>
+                        <div class="brand-stats">
+                            <small>30+ Active Campaigns</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="brand-card">
+                    <div class="brand-logo gaming-brand">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="brand-info">
+                        <h5>Google</h5>
+                        <span class="brand-category">AI & Search</span>
+                        <div class="brand-stats">
+                            <small>75+ Active Campaigns</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="brand-card">
+                    <div class="brand-logo social-brand">
+                        <i class="fab fa-meta"></i>
+                    </div>
+                    <div class="brand-info">
+                        <h5>Meta</h5>
+                        <span class="brand-category">Social Media</span>
+                        <div class="brand-stats">
+                            <small>40+ Active Campaigns</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="brand-card">
+                    <div class="brand-logo startup-brand">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="brand-info">
+                        <h5>Tech Startups</h5>
+                        <span class="brand-category">Emerging Tech</span>
+                        <div class="brand-stats">
+                            <small>200+ Active Campaigns</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="brand-card">
+                    <div class="brand-logo saas-brand">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="brand-info">
+                        <h5>SaaS Platforms</h5>
+                        <span class="brand-category">Business Tools</span>
+                        <div class="brand-stats">
+                            <small>150+ Active Campaigns</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="brands-cta">
+                <button class="btn btn-outline-primary">View All Partner Brands</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creator Showcase -->
+    <section class="creator-showcase-section">
+        <div class="container">
+            <div class="showcase-header">
+                <h2>This Week's Rising Stars</h2>
+                <button class="btn btn-outline-primary">View All Creators</button>
+            </div>
+            
+            <div class="creators-carousel">
+                <div class="creator-spotlight">
+                    <div class="creator-profile">
+                        <img src="https://via.placeholder.com/100x100/1DBF73/FFFFFF?text=AI" alt="Creator">
+                        <div class="creator-badge">🏆 Top Performer</div>
+                    </div>
+                    <h4>AITechExplorer</h4>
+                    <p>250K YouTube • AI & Tech Reviews</p>
+                    <div class="creator-metrics">
+                        <span>+50K views this week</span>
+                        <span>12 brand partnerships</span>
+                    </div>
+                    <button class="btn btn-sm btn-primary">Follow Journey</button>
+                </div>
+                
+                <div class="creator-spotlight">
+                    <div class="creator-profile">
+                        <img src="https://via.placeholder.com/100x100/1DBF73/FFFFFF?text=TT" alt="Creator">
+                        <div class="creator-badge">⚡ Viral Hit</div>
+                    </div>
+                    <h4>TechTikTalker</h4>
+                    <p>500K TikTok • Quick Tech Tips</p>
+                    <div class="creator-metrics">
+                        <span>2.1M views this week</span>
+                        <span>8 active campaigns</span>
+                    </div>
+                    <button class="btn btn-sm btn-primary">Follow Journey</button>
+                </div>
+                
+                <div class="creator-spotlight">
+                    <div class="creator-profile">
+                        <img src="https://via.placeholder.com/100x100/1DBF73/FFFFFF?text=IG" alt="Creator">
+                        <div class="creator-badge">📸 Featured</div>
+                    </div>
+                    <h4>InstaGadgetGuru</h4>
+                    <p>180K Instagram • Gadget Reviews</p>
+                    <div class="creator-metrics">
+                        <span>+25K followers this week</span>
+                        <span>6 product launches</span>
+                    </div>
+                    <button class="btn btn-sm btn-primary">Follow Journey</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Community CTA -->
+    <section class="community-cta-section">
+        <div class="container">
+            <div class="cta-container">
+                <div class="cta-content">
+                    <h2>Ready to Join the Elite?</h2>
+                    <p>10K+ creators are already building their empires. Your spot is waiting.</p>
+                    <button class="btn btn-primary btn-lg">
+                        <i class="fas fa-crown me-2"></i>
+                        Claim Your Spot Now
+                    </button>
+                    <div class="cta-guarantee">
+                        <i class="fas fa-shield-alt"></i>
+                        Free forever • No credit card required • Join in 30 seconds
+                    </div>
+                </div>
+                <div class="cta-visual">
+                    <div class="success-metrics">
+                        <div class="metric-item">
+                            <span class="metric-value">$2.1M+</span>
+                            <span class="metric-desc">Creator earnings</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-value">89%</span>
+                            <span class="metric-desc">Success rate</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-value">24/7</span>
+                            <span class="metric-desc">Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Simple Footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="bigfluencer.png" alt="Bigfluencer" class="footer-logo">
+                    <p>Empowering the next generation of tech creators</p>
+                </div>
+                <div class="footer-links">
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <p>&copy; 2025 Bigfluencer. Built for creators, by creators.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
